@@ -27,6 +27,7 @@ As a result, the model shows promise in bias identification and its classificati
 Questions to be investigated:
 1. "Anchors" help explain why the model made a particular classification, for example, the model was successful in correctly predicting certain combinations of words "halt, efforts, declared, ..." as non-biased, these combinations
 might be observed in biased text input as well. Can we define metrics to specifically target the generalization capability of the model in such cases?
+
 The embeddings capture the semantic information from sentences, and when projected into lower dimensions, data points that are closer together represent sentences that are more semantically similar.
 However, while the dimensions from the t-SNE plot show relationships within clusters, the dominant words in those sentences do not directly indicate a clear bias, and four out of five clusters have mixed amounts of bias and
 non-biased input text suggests that the embedding structure is capturing bias in a way that isn't easily explained just by looking at the top words alone:
