@@ -30,6 +30,6 @@ might be observed in biased text input as well. Can we define metrics to specifi
 
 The embeddings capture the semantic information from sentences, and when projected into lower dimensions, data points that are closer together represent sentences that are more semantically similar.
 However, while the dimensions from the t-SNE plot show relationships within clusters, the dominant words in those sentences do not directly indicate a clear bias, and four out of five clusters have mixed amounts of bias and
-non-biased input text suggests that the embedding structure is capturing bias in a way that isn't easily explained just by looking at the top words alone:
-2. What are the specific relationships between the two t-SNE dimensions and the bias patterns within the dataset were observed? Do they represent any particular semantic properties?
-3. Why might the top words in a cluster not show a dominant relationship to bias? Does this suggest a limitation in using word frequency as an indicator of bias, or are there other factors at play?
+non-biased input text suggests that the embedding structure is capturing bias in a way that isn't easily explained just by looking at the top words alone:  
+&emsp;2. What are the specific relationships between the two t-SNE dimensions and the bias patterns within the dataset were observed? Do they represent any particular semantic properties?  
+&emsp;3. Why might the top words in a cluster not show a dominant relationship to bias? Does this suggest a limitation in using word frequency as an indicator of bias, or are there other factors at play?
